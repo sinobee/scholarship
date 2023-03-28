@@ -1,0 +1,89 @@
+.mainCon{
+    width: 100%;
+    height: 298px;
+    padding: 10px 60px 10px 60px;
+    background-color: #f3f4f7;
+}
+.innerCon {
+  width: 70%;
+  height: 280px;
+  padding: 15px;
+  display: flex;
+}
+.filterCon{
+    width: 70%;
+    height: 252px;
+    padding: 10px;
+    display: flex;
+}
+.fiterResult{
+width: 30%;
+   height: 252px;
+}
+.fiterTitle{
+   width:136px;
+   height: 232px;
+   padding: 3px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+}
+.fiterItemCon{
+   max-width: 503px;
+   height: 232px;
+   padding: 3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.fiterTitle>div{
+    height: 39px;
+    width: 127px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-left: 3px solid #d5d7dd;
+}
+.fiterTitle>div>p{
+    font-weight: 300;
+}
+.fiterItemCon>div{
+    
+    max-width: 553px;
+   height: 39px; 
+
+}
+.common{
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+.fiterItemCon>div>button{
+    background-color: #fff;
+    margin-right: 3px;
+    outline: none;
+    border: none;
+    height: 39px;
+    font-weight:300;
+}
+.ageCon>button{
+    width: 123px;
+}
+.gender>button {
+    width: 164px;
+}
+.cast>button{
+    width: 123px;
+}
+.income>button{
+    width: 98px;
+}
+
+.fiterResult{
+    border: 1px solid black;
+}
+.fiterItemCon>div>button:hover{
+    background-color: #ee4c2c;
+    color: white;
+}
