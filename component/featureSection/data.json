@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ad pariatur",
+        "age": "12-23",
+        "cast": [
+            "Gen",
+            "OBC",
+            "ST",
+            "EWS"
+        ],
+        "state": "gujarat",
+        "income": "200000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female",
+            "tranc"
+        ],
+        "last_date": "2023-03-24",
+        "desc": "",
+        "image": "https://www.ssims.edu.in/wp-content/uploads/2020/03/ssit-students-scholarship-loans.jpg",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    },
+    {
+        "name": "reprehenderit eaque impedit adipisci asperiores necessitatibus atque incidunt",
+        "age": "22-23",
+        "cast": [
+            "Gen",
+            "EWS"
+        ],
+        "state": "gujarat",
+        "income": "300000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female"
+        ],
+        "last_date": "2023-04-2022",
+        "desc": "",
+        "image": "https://img.freepik.com/free-photo/mortar-board-graduation-diploma_53876-47088.jpg?w=740&t=st=1678869972~exp=1678870572~hmac=a6f4c700ef7cf52a4de0ceea399f5ac67c70590359a3f5e826926e44ec25f48c",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    },
+    {
+        "name": "impedit adipisci asperiores necessitatibus atque incidunt. Facilis",
+        "age": "25-26",
+        "cast": [
+            "ST",
+            "OBC"
+        ],
+        "state": "gujarat",
+        "income": "600000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female"
+        ],
+        "last_date": "2023-05-25",
+        "desc": "",
+        "image": "https://www.thehighereducationreview.com/newsimagespl/8ms24aEc.jpeg",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    },
+    {
+        "name": "dolor sit, amet consectetur adipisicing elit. Animi ad pariatur reprehenderit eaque impedit adipisci asperiores",
+        "age": "35-40",
+        "cast": [
+            "ST",
+            "OBC",
+            "EWS"
+        ],
+        "state": "up",
+        "income": "800000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female",
+            "tranc"
+        ],
+        "last_date": "2023-02-15",
+        "desc": "",
+        "image": "https://img.freepik.com/free-photo/certificate-with-ribbon-bow-books_23-2148769681.jpg?size=626&ext=jpg&ga=GA1.2.163941822.1678869952&semt=sph",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    },
+    {
+        "name": "Animi ad pariatur reprehenderit eaque impedit adipisci asperiores necessitatibus atque ",
+        "age": "15-30",
+        "cast": [
+            "Gen",
+            "OBC",
+            "EWS",
+            "ST"
+        ],
+        "state": "delhi",
+        "income": "600000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female"
+        ],
+        "last_date": "2024-06-12",
+        "desc": "",
+        "image": "https://img.freepik.com/free-vector/organic-flat-graduation-illustration_23-2148927344.jpg?size=338&ext=jpg&ga=GA1.1.163941822.1678869952&semt=sph",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    },
+    {
+        "name": "dolor sit, amet consectetur adipisicing elit. Animi ad pariatur reprehenderit eaque impedit adipisci asperiores",
+        "age": "35-40",
+        "cast": [
+            "ST",
+            "OBC",
+            "EWS"
+        ],
+        "state": "up",
+        "income": "800000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female",
+            "tranc"
+        ],
+        "last_date": "2023-02-15",
+        "desc": "",
+        "image": "https://img.freepik.com/free-vector/illustration-education-concept_53876-9254.jpg?size=626&ext=jpg&ga=GA1.1.163941822.1678869952&semt=sph",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    },
+    {
+        "name": "dolor sit, amet consectetur adipisicing elit. Animi ad pariatur reprehenderit eaque impedit adipisci asperiores",
+        "age": "35-40",
+        "cast": [
+            "ST",
+            "OBC",
+            "EWS"
+        ],
+        "state": "up",
+        "income": "800000",
+        "physical_disability": "yes",
+        "gender": [
+            "male",
+            "female",
+            "tranc"
+        ],
+        "last_date": "2023-02-15",
+        "desc": "",
+        "image": "https://img.freepik.com/free-photo/scholarship-application-document-contract-form-concept_53876-124985.jpg?size=626&ext=jpg&ga=GA1.1.163941822.1678869952&semt=sph",
+        "offer_by": "",
+        "publish_date": "",
+        "main_page_link": "",
+        "document_req": "",
+        "religion_eligibility": [],
+        "education_criteria": "",
+        "other_criteria": ""
+    }
+]
