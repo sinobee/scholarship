@@ -27,64 +27,52 @@ function Filter(){
     return(
         <div className={style.mainCon}>
             <div className={style.innerCon}>
-                <div className={style.filterCon}>
 
-                {/* Fiter title section start */}
+                {/* Fiter  section start */}
                     <div className={style.fiterTitle}>
-                        <div><p>State :</p>
-                        
+                        <div className="">
+                            <p>State</p>
+                            <div>
+                              <Select
+                              className={style.stateCon}
+                               defaultValue={state}
+                                onChange={handleState}
+                                options={options}                      
+                             />
                         </div>
-                        <div><p>Age :</p></div>
-                        <div><p>Gender :</p></div>
-                        <div><p>Cast :</p></div>
-                        <div><p>Income :</p></div>
-                    </div>
-                {/* Fiter title section end*/}
-
-
-                {/* Filter label section start */}
-
-                    <div className={style.fiterItemCon}>
-                        {/* state drop down */}
-                        <div className={style.stateCon}>
-                        <Select
-                         defaultValue={state}
-                          onChange={handleState}
-                          options={options}                      
-                        />
                         </div>
-
-                        {/* Age select radio input  */}
+                        <div><p>Age</p>
                         <div className={`${style.ageCon} ${style.common}`}>
 
-                            <input type={"radio"} name={"age"} id="11-20"  />
+                           <input type={"radio"} name={"age"} id="11-20"  />
                             <label for="11-20" onClick={(e)=>handleAge(e)}>11-20</label>
 
-                            <input type={"radio"} name={"age"}  id="21-30" />
-                            <label for="21-30" onClick={(e)=>handleAge(e)}>21-30</label>
+                           <input type={"radio"} name={"age"}  id="21-30" />
+                           <label for="21-30" onClick={(e)=>handleAge(e)}>21-30</label>
 
-                            <input type={"radio"} name={"age"}  id="31-35" />
-                            <label for="31-35" onClick={(e)=>handleAge(e)}>31-35</label>
+                           <input type={"radio"} name={"age"}  id="31-35" />
+                           <label for="31-35" onClick={(e)=>handleAge(e)}>31-35</label>
 
-                            <input type={"radio"} name={"age"}    id=">35"/>
-                            <label for=">35" onClick={(e)=>handleAge(e)}>Above 35</label>
+                           <input type={"radio"} name={"age"}    id=">35"/>
+                           <label for=">35" onClick={(e)=>handleAge(e)}>{">"}35</label>
+                           </div>
                         </div>
-                        
+                        <div><p>Gender</p>
+                          {/* Gender select radio input */}
+                          <div className={`${style.gender} ${style.common}`}>
 
-                        {/* Gender select radio input */}
-                        <div className={`${style.gender} ${style.common}`}>
+                             <input type={"radio"} name={"gender"}  id="male"  />
+                             <label for="male" onClick={(e)=>handleGender(e)}>Male</label>
 
-                            <input type={"radio"} name={"gender"}  id="male"  />
-                            <label for="male" onClick={(e)=>handleGender(e)}>Male</label>
-
-                            <input type={"radio"} name={"gender"}  id="female"  />
-                            <label for="female" onClick={(e)=>handleGender(e)}>Female</label>
+                             <input type={"radio"} name={"gender"}  id="female"  />
+                             <label for="female" onClick={(e)=>handleGender(e)}>Female</label>
 
                             <input type={"radio"} name={"gender"}  id="tran"  />
                             <label for="tran" onClick={(e)=>handleGender(e)}>Tran</label>
+                           </div>
                         </div>
-
-                         {/* Cast select radio input */}
+                        <div><p>Cast</p>
+                        {/* Cast select radio input */}
                         <div className={`${style.cast} ${style.common}`}>
 
                             <input type={"radio"} name={"cast"}  id="general"  />
@@ -99,7 +87,8 @@ function Filter(){
                             <input type={"radio"} name={"cast"}  id="ST"  />
                             <label for="ST" onClick={(e)=>handleCast(e)}>ST</label>
                         </div>
-
+                        </div>
+                        <div><p>Income</p>
                         {/* Income select radio input */}
                         <div className={`${style.income} ${style.common}`}>
                             <input type={"radio"} name={"income"}  id="10K-1L"  />
@@ -115,11 +104,12 @@ function Filter(){
                             <label for="7L-9L" onClick={(e)=>handleIncome(e)}>7L-9L</label>
 
                             <input type={"radio"} name={"income"}  id=">10L"  />
-                            <label for=">10L" onClick={(e)=>handleIncome(e)}>Above 10L</label>
+                            <label for=">10L" onClick={(e)=>handleIncome(e)}>{">"}10L</label>
+                        </div>
                         </div>
                     </div>
-                </div>
-            {/* Filter label section end */}
+                {/* Fiter title section end*/}
+
 
                 {/* Filter result section start */}
                 <div className={style.fiterResult}>

@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <Filter />
-      {/* <Featurelist /> */}
+      <Featurelist />
     </>
   )
 }
