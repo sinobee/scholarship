@@ -5,21 +5,25 @@
     background-color: #f3f4f7;
 }
 .innerCon {
-  width: 70%;
+  /* width: 70%; */
+  max-width: 956px;
+  
   height: 280px;
   padding: 15px;
   display: flex;
+  background-color: red;
 }
 .filterCon{
-    width: 70%;
+    max-width: 649px;
     height: 252px;
     padding: 10px;
+    /* background-color: burlywood; */
     display: flex;
+    /* flex-wrap: wrap; */
 }
-.fiterResult{
-width: 30%;
-   height: 252px;
-}
+
+/* Fiter title section css */
+
 .fiterTitle{
    width:136px;
    height: 232px;
@@ -29,14 +33,7 @@ width: 30%;
    flex-direction: column;
     justify-content: space-between;
 }
-.fiterItemCon{
-   max-width: 503px;
-   height: 232px;
-   padding: 3px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-}
+
 .fiterTitle>div{
     height: 39px;
     width: 127px;
@@ -48,42 +45,115 @@ width: 30%;
 .fiterTitle>div>p{
     font-weight: 300;
 }
-.fiterItemCon>div{
-    
-    max-width: 553px;
-   height: 39px; 
 
-}
-.common{
+/*Filter label section css*/
+
+ .fiterItemCon{
+    max-width: 503px;
+    height: 232px;
+    padding: 3px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .fiterItemCon>div{
+    max-width: 553px;
+    height: 39px; 
+ }
+
+ .common{
+    display: flex;
     text-align: center;
+    align-items: center;
 } 
-.fiterItemCon>div>button{
+
+.fiterItemCon>div>label{
     background-color: #fff;
     margin-right: 3px;
     outline: none;
     border: none;
     height: 39px;
     font-weight:300;
+    padding-top: 9px;
 }
-.ageCon>button{
+
+.ageCon>label{
     width: 123px;
 }
-.gender>button {
+
+.gender>label {
     width: 164px;
 }
-.cast>button{
+
+.cast>label{
     width: 123px;
 }
-.income>button{
+
+.income>label{
     width: 98px;
 }
 
-.fiterResult{
-    border: 1px solid black;
-}
-.fiterItemCon>div>button:hover{
+.fiterItemCon>div>label:hover{
     background-color: #ee4c2c;
     color: white;
+    letter-spacing: 2px;
 }
+
+.common>input{
+    display: none;
+  }
+  
+  .common>input:checked+label{
+  background-color: #ee4c2c;
+  color: #fff;
+  }
+
+
+/* Filter result section */
+.fiterResult{
+    width: 30%;
+    height: 252px;
+    border: 1px solid black;
+ }
+
+
+ @media (max-width: 1091px){
+    .mainCon{
+        padding: 10px 3px 10px 3px;
+    }
+ }
+
+ @media (max-width: 966px){
+    .mainCon{
+        padding: 10px 3px 10px 3px;
+        height: 439px;
+    }
+    .innerCon{
+        max-width: 665px;
+        height: 418px;
+        flex-wrap: wrap;
+        padding:5px;
+    }
+    .filterCon{
+        max-width: 650px;
+    }
+    .fiterResult{
+        width: 647px;
+        height: 155px;
+        border: 1px solid black;
+    }
+ }
+
+ @media (max-width:662px){
+.fiterTitle{
+    width: 88px;
+}
+.fiterItemCon{
+    padding: 3px;
+}
+ }
+
+ @media(max-width:612px){
+    
+ }
