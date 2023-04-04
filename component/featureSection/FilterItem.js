@@ -37,7 +37,7 @@ function FilterItem(){
      }
     return(
        
-       <div className={style.container}>
+       <>
        
        {
           data.map((value)=>{
@@ -79,7 +79,7 @@ function FilterItem(){
               )
           })
        }
-    </div>
+    </>
     )
 }
 

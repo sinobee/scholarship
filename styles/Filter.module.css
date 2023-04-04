@@ -88,7 +88,7 @@
     width: 98px;
 }
 
-.fiterItemCon>div>label:hover{
+.common>label:hover{
     background-color: #ee4c2c;
     color: white;
     letter-spacing: 2px;
