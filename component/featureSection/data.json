@@ -14,7 +14,7 @@
         "gender": [
             "male",
             "female",
-            "tranc"
+            "other"
         ],
         "last_date": "2023-03-24",
         "desc": "",
@@ -91,7 +91,7 @@
         "gender": [
             "male",
             "female",
-            "tranc"
+            "other"
         ],
         "last_date": "2023-02-15",
         "desc": "",
@@ -145,7 +145,7 @@
         "gender": [
             "male",
             "female",
-            "tranc"
+            "other"
         ],
         "last_date": "2023-02-15",
         "desc": "",

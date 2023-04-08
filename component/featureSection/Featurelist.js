@@ -9,10 +9,12 @@ export default function Featurelist() {
   const refSectionTwo = useRef()
   const refSectionThree= useRef()
   function leftScroll(ref){
+    console.log(refSectionOne)
     ref.scrollBy(-350,0);
   }
 
   function rightScroll(ref){
+    console.log(ref)
     ref.scrollBy(350,0);
   }
   return (
@@ -53,12 +55,5 @@ export default function Featurelist() {
 
 
 
-// .container {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background-color: #e5f71b;
-//   padding: 0 100px 0 100pxpx;
-//   /* background-image: linear-gradient(90deg,#74ebd5,0%,#9face6);  */
 
 

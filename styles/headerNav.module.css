@@ -1,0 +1,115 @@
+.r{
+    color: red;
+}
+.y{
+    color: rgb(251, 251, 7);
+}
+.g{
+    color: rgb(9, 183, 41);
+}
+.b{
+    color: rgb(93, 138, 251);
+}
+.w
+{
+    color:aliceblue;
+}
+.name{
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: black;
+    box-shadow: 005px 15px rgba(0,0,0, 0.90) ;
+    width: 100%;
+    
+}
+.navMenu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+}
+.navlinks{
+    text-decoration: none;
+    color: #f9f4f4;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    
+}
+.navlinks i{
+    padding-right: 10px;
+}
+.navlinks:hover {
+  background: rgb(89, 137, 249) ;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.fa-bars{
+    color: #fff;
+}
+.menuIcons{
+display: none;
+}
+.navlinkmobile{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    background-color: aqua;
+    border-radius: 3px;
+    color: maroon;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+@media screen and (max-width: 850px){
+    .NavbarItem{
+     z-index: 99;
+    }
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: rgba(255,255,255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+        top:;
+        left:-110%;
+        margin-left: ;
+        transition: all 0.3s ease-in-out;
+
+    }
+    .navMenu.active{
+        left: 0%;
+    }
+
+    .navlinks{
+        display:;
+        padding: ;
+        color: ;
+    }
+    .navlinks:hover {
+        background-color:rgba(202, 17, 17, 0.847) ;
+    }
+    .menuIcons{
+    display: block;
+
+    }
+    .navlinkmobile{
+    padding: 1.5rem;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    }
+
+}

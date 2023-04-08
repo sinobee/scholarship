@@ -1,5 +1,10 @@
 import style from "../../styles/Card.module.css";
-import data from "./data.json"
+import data from "./data.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faIdCard , faUsersViewfinder,
+      faHospitalUser,faMapLocationDot,
+      faHandHoldingDollar,faCalendarWeek } from "@fortawesome/free-solid-svg-icons";
+
 function FilterItem(){
    function handleStr(name){
     if(name.length> 56){
@@ -50,27 +55,33 @@ function FilterItem(){
                     </div>
                  <div className={style.content}>
                      <div>
-                         <h3>Age</h3>
+                         {/* <h3>Age</h3> */}
+                         <FontAwesomeIcon icon={faHospitalUser} size="xl" style={{color: "#010409",}} />
                          <p>{value.age}</p>
                      </div>
                      <div className={style.cast}>
-                         <h3>Cast</h3>
+                         {/* <h3>Cast</h3> */}
+                         <FontAwesomeIcon icon={faIdCard} size="xl" style={{color: "#080808",}} />
                          <p>{handleCast(value.cast)}</p>
                      </div>
                      <div >
-                         <h3>State</h3>
+                         {/* <h3>State</h3> */}
+                         <FontAwesomeIcon icon={faMapLocationDot} size="xl" style={{"--fa-primary-color": "#0c0d0d", "--fa-secondary-color": "#051024",}} />
                          <p>{value.state}</p>
                      </div>
                      <div>
-                         <h3>Income</h3>
+                         {/* <h3>Income</h3> */}
+                         <FontAwesomeIcon icon={faHandHoldingDollar} size="xl" style={{color: "#010204",}} />
                          <p>{value.income}</p>
                      </div>
                      <div  >
-                         <h3>Gender</h3>
+                         {/* <h3>Gender</h3> */}
+                         <FontAwesomeIcon icon={faUsersViewfinder} size="xl" style={{color: "#0a0a0a",}} />
                          <p >{handleGender(value.gender)}</p>
                      </div>
                      <div  >
-                         <h3>Last Date</h3>
+                         {/* <h3>Last Date</h3> */}
+                         <FontAwesomeIcon icon={faCalendarWeek} size="xl" style={{color: "#020203",}} />
                          <p >{value.last_date}</p>
                      </div>
                  </div>

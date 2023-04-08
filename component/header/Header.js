@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
+
+
+
+
 function Header() {
   const [query, setQuery] = useState('');
   const router = useRouter();

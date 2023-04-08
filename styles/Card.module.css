@@ -8,7 +8,7 @@
 
 .cur{
   display: flex;
-   width: 100%;
+  width: 100%;
   overflow: hidden;
   scroll-behavior: smooth;
   z-index: 0;
@@ -21,7 +21,7 @@
   border: none;
   outline: none;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   align-items: center;
   background-color: #675b5b;
   color: #fff;
@@ -116,6 +116,7 @@
     color :#fff;
     border: none;
     outline: none;
+    margin-top: 15px;
     font-size: 17px;
     cursor: pointer;
     border-radius: 50px;
@@ -140,8 +141,8 @@
    position: absolute;
    width: 100%;
    height: 100%;
-   background-color: #FBDA61;
-   background-image: linear-gradient(45deg,#FBDA61 0%,#FF5ACD 100%);
+   background-color: #ccc;
+   background-image: #ccc;
    content: "";
    top :0;
    left :0;
@@ -161,39 +162,16 @@
      color: #fff;
 } */
 
-.box:nth-child(2):after{
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg,#0093e9 0%,#60b37f 100%);
-}
-
-.box:nth-child(3):after{
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg,#cda783 0%,#e5f71b 100%);
-}
-
-.box:nth-child(2):after{
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg,#e9001b 0%,#ffe93f 100%);
-}
-
-.box:nth-child(4):after{
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg,#750cad 0%,#0cc3f1 100%);
-}
-
-.box:nth-child(5):after{
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg,#fd51c7 0%,#aff8b6 100%);
-}
 
 .box:hover::after {
     clip-path: circle(100%);
 }
 .box:hover h3 {
-    color: #fff;
+    color: #131313;
 }
 .box:hover p {
-    color: #fff;
+    font-weight: bolder;
+    color: #0d0d0d;
 }
 
 
