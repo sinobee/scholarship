@@ -3,16 +3,14 @@ import { useState } from "react";
 import React from "react";
 import style from "../../styles/headerNav.module.css";
 import Link from "next/link";
-import { render } from "react-dom/cjs/react-dom.production.min";
 
 
-class Navbar extends React.Component{
-  
-    const [state, setstate] = useState({clicked: false});
-     handleClick = ()=>{
-        this.setState({clicked: !this.state.clicked})
+function Navbar(){
+    const [check,setCheck] = useState(false);
+    
+     const  handleClick = ()=>{
+        setCheck(!check)
     };
-    render(){
     return (
         <>
             <nav className={style.NavbarItem}>
@@ -30,10 +28,10 @@ class Navbar extends React.Component{
                 </svg><span className={style.r}>Scho</span><span className={style.y}>lar</span><span className={style.g}>ship</span><span className={style.w}>_</span><span className={style.b}>Villa</span></div>
                 </h2>
 
-            <div className={style.menuIcons} onClick={this.handleClick}> 
-            <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"} style={{color: "#fff"}}></i>
+            <div className={style.menuIcons} onClick={handleClick}> 
+            <i className={check? "fas fa-times" : "fas fa-bars"} style={{color: "#fff"}}></i>
             </div>
-            <ul className={this.state.clicked ? "navMenu active" :"navMenu"}>
+            <ul className={check? "navMenu active" :"navMenu"}>
             
            <li>
             <Link href="/">
@@ -70,7 +68,7 @@ class Navbar extends React.Component{
             </nav>
         </>
     )
-    }
+    
     }
 
 
