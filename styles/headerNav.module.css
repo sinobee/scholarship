@@ -1,33 +1,22 @@
-.r{
-    color: red;
-}
-.y{
-    color: rgb(251, 251, 7);
-}
-.g{
-    color: rgb(9, 183, 41);
-}
-.b{
-    color: rgb(93, 138, 251);
-}
-.w
-{
-    color:aliceblue;
-}
-.name{
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-}
+/*  <i className="fa-solid fa-house-chimney" style={{color: "#f5f9ff"}}></i>
+            Icon For "Home"
+            
+    <i className="fa-solid fa-newspaper" style={{color: "#f5f9ff"}}></i>
+            Icon For "Details"
+    
+    <i className="fa-regular fa-address-book" style={{color: "#f5f9ff",}}></i>
+            Icon For "Contatct Us"
+            
+    <i className="fa-solid fa-circle-info" style={{color: "#f5f9ff"}}></i>
+           Icon For "About"        */
 .NavbarItem{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
     background-color: black;
-    box-shadow: 005px 15px rgba(0,0,0, 0.90) ;
-    width: 100%;
-    
+    box-shadow: 0px 5px 15px rgba(0,0,0, 0.90) ;
+    width: 100%; 
 }
 .navMenu{
     display: grid;
@@ -43,18 +32,19 @@
     color: #f9f4f4;
     padding: 0.7rem 1rem;
     white-space: nowrap;
+
     
 }
 .navlinks i{
     padding-right: 10px;
 }
 .navlinks:hover {
-  background: rgb(89, 137, 249) ;
+  background: rgb(98, 140, 237) ;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
 .fa-bars{
-    color: #fff;
+    color: #8e2121;
 }
 .menuIcons{
 display: none;
@@ -64,7 +54,7 @@ display: none;
     white-space: nowrap;
     background-color: aqua;
     border-radius: 3px;
-    color: maroon;
+    color: rgb(169, 82, 82);
     font-size: 1rem;
     font-weight: 500;
     
@@ -78,15 +68,16 @@ display: none;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background-color: rgba(255,255,255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
-        top:;
+        background-color: rgba(169, 157, 157, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(105, 108, 152, 0.37);
+        margin-top: 0px;
         left:-110%;
         margin-left: ;
         transition: all 0.3s ease-in-out;
+        z-index: ;
 
     }
-    .navMenu.active{
+    .navMenu active{
         left: 0%;
     }
 
@@ -96,7 +87,7 @@ display: none;
         color: ;
     }
     .navlinks:hover {
-        background-color:rgba(202, 17, 17, 0.847) ;
+        background-color:rgba(204, 83, 83, 0.847) ;
     }
     .menuIcons{
     display: block;
