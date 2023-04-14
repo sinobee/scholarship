@@ -1,10 +1,10 @@
-import MainNavbar from '@/component/header/MainNavbar';
+import Navbar from '@/component/header/Navbar';
 import '@/styles/globals.css';
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-   <MainNavbar/> 
+   <Navbar/> 
   <Component {...pageProps} />
   </>
   )

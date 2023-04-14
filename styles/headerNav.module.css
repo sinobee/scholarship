@@ -8,7 +8,30 @@
             Icon For "Contatct Us"
             
     <i className="fa-solid fa-circle-info" style={{color: "#f5f9ff"}}></i>
-           Icon For "About"        */
+           Icon For "About"   
+           
+           for menu Open Close
+ import { useState } from "react"; 
+
+           const [check,setCheck] = useState(false);
+    
+      const  handleClick = ()=>{
+         setCheck(!check)
+     };
+ <div className={style.menuIcons} onClick={handleClick}> 
+             <i className={check ? "fas fa-times" : "fas fa-bars"} style={{color: "#fff"}}></i>
+             </div>       
+             Previous Code for hamburger
+              <div
+          onClick={() => setNavActive(!navActive)}
+          className={`nav__menu-bar`}
+        >
+          <div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>*/
 .NavbarItem{
     display: flex;
     justify-content: space-between;

@@ -4,6 +4,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+
 }
 
 .cur{
@@ -46,11 +47,13 @@
     position: relative;
     transition:height 0.8s;
     z-index: 0;
+
 }
 .banner{
     position: relative;
     height: 154px;
     margin-bottom: 10px;
+    
 }
 .heading{
     position: absolute;
@@ -59,10 +62,23 @@
     top:60px;
     left: 0;
 }
-.imageHeading{
+/* Starting Of New Netflix Editing */
+/* .imageHeading{
    border-top-right-radius: 5px;
    border-top-left-radius: 5px;
+   transition: transform 300ms ease 100ms;
+   
 }
+.box:hover .imageHeading {
+    transform: translateX(100) translateY(100%);
+    transition-delay: .2s;
+			min-width: 350px;
+			min-height: 250px;
+  }
+  .imageHeading:hover ~ .box {
+    transform: translateX(55%) translateY(-55%);
+  } */
+  /*Ending of New Netflix Editing */
 .shadow {
     position: absolute;
     height: 152px;
