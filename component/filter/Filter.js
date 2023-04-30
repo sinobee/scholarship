@@ -2,6 +2,7 @@ import style from "../../styles/Filter.module.css"
 import Select from 'react-select';
 import { useState } from "react";
 import options from "./state.json";
+import ResultCard from "./ResultCard";
 function Filter(){
     const [state ,setState] = useState("States..");
 
@@ -113,7 +114,7 @@ function Filter(){
 
                 {/* Filter result section start */}
                 <div className={style.fiterResult}>
-
+                    {/* <ResultCard/> */}
                 </div>
             </div>
         </div>
