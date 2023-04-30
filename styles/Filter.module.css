@@ -108,7 +108,7 @@
 .fiterResult{
     width: 30%;
     height: 232px;
-    border: 1px solid black;
+    
  }
 
 /* media query */
@@ -208,5 +208,11 @@
         height: 145px;
     }
  }
+
+.result_card_con{
+    width: 100%;
+    height: 232px;
+    border: 1px solid black;
+}
 
  
