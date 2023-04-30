@@ -9,7 +9,7 @@ function Footerlink() {
     <footer class={style.footerdistributed}>
     
     <div class={style.footerleft}>
-        <h3>Scholarship<span>_Villa</span></h3>
+        <h3>Scholarship<span>_Portal</span></h3>
     
         <p class={style.footerlinks}>
             <a href="#">Home</a>
@@ -18,7 +18,7 @@ function Footerlink() {
             |
             <a href="#">Contact</a>
             |
-            <a href="#">Blog</a>
+            <a href="#">Details</a>
         </p>
     
         <p class={style.footercompanyname}>Copyright © 2023 <strong>thebarabariproject</strong> All rights reserved</p>
@@ -48,6 +48,7 @@ function Footerlink() {
             and 6 people are placed in MNC companies
             from "4 Different STATES"
         </p>
+        
         
         <div class={style.footericons}>
            <div class={style.icons1}> <a href="#"><i class="fa-brands fa-facebook"></i></a></div>

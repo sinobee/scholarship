@@ -32,6 +32,26 @@
           <div></div>
           <div></div>
         </div>*/
+      
+        .footerdistributed {
+            background-color: #3d3247;
+            box-sizing: border-box;
+            width: 100%;
+            text-align: left;
+            font: bold 16px sans-serif;
+            
+            color: #f6f1f1;
+        }
+        .footerdistributed h3 {
+            color: #ffffff;
+            font: normal 36px 'Cookie', cursive;
+            margin: 0;
+        }
+        
+        
+        .footerdistributed h3 span {
+            color: #e0ac1c;
+        }
 .NavbarItem{
     display: flex;
     justify-content: space-between;

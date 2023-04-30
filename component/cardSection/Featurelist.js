@@ -19,9 +19,10 @@ export default function Featurelist() {
   }
   return (
     <>
-    <h2>
-      Section 1 Scholarshiop data
-    </h2>
+    <br></br>
+    <h1><center>
+        🔥Best Scholarships For You 🏆
+    </center></h1>
     <div className={style.wrapper} >
       <button className={style.leftButton} onClick={()=>{leftScroll(refSectionOne.current)}}>{left}</button>
         <div className={style.cur}  ref={refSectionOne}>
@@ -29,9 +30,10 @@ export default function Featurelist() {
         </div>
         <button style={{marginLeft:5}} className={style.rightButton} onClick={()=>{rightScroll(refSectionOne.current)}}>{right}</button>
     </div>
-      <h2>
-      Section 2 Scholarshiop data
-    </h2>
+    <br></br>
+      <h1>
+      <center>🏦Government Scholarships🚨</center>
+    </h1>
     <div className={style.wrapper} >
       <button className={style.leftButton} onClick={()=>{leftScroll(refSectionTwo.current)}}>{left}</button>
         <div className={style.cur}  ref={refSectionTwo}>
@@ -39,9 +41,10 @@ export default function Featurelist() {
         </div>
         <button style={{marginLeft:5}} className={style.rightButton} onClick={()=>{rightScroll(refSectionTwo.current)}}>{right}</button>
     </div>
-    <h2>
-      Section 3 Scholarshiop data
-    </h2>
+    <br></br>
+    <h1><center>
+    🏅Top Scholarships Apply Now 🎯
+    </center></h1>
     <div className={style.wrapper} >
       <button className={style.leftButton} onClick={()=>{leftScroll(refSectionThree.current)}}>{left}</button>
         <div className={style.cur}  ref={refSectionThree}>

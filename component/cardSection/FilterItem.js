@@ -85,7 +85,7 @@ function FilterItem(){
                          <p >{value.last_date}</p>
                      </div>
                  </div>
-                <button>Click Here</button>
+                <button>View Details</button>
             </div>
               )
           })
