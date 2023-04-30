@@ -32,7 +32,7 @@ function Filter(){
                 {/* Fiter  section start */}
                     <div className={style.fiterTitle}>
                         <div className="">
-                            <p>State</p>
+                            <p><b><i>State</i></b></p>
                             <div>
                               <Select
                               className={style.stateCon}
@@ -42,7 +42,7 @@ function Filter(){
                              />
                         </div>
                         </div>
-                        <div><p>Age</p>
+                        <div><p><b><i>Age</i></b></p>
                         <div className={`${style.ageCon} ${style.common}`}>
 
                            <input type={"radio"} name={"age"} id="11-20"  />
@@ -58,7 +58,7 @@ function Filter(){
                            <label for=">35" onClick={(e)=>handleAge(e)}>{">"}35</label>
                            </div>
                         </div>
-                        <div><p>Gender</p>
+                        <div><p><b><i>Gender</i></b></p>
                           {/* Gender select radio input */}
                           <div className={`${style.gender} ${style.common}`}>
 
@@ -72,7 +72,7 @@ function Filter(){
                             <label for="tran" onClick={(e)=>handleGender(e)}>Tran</label>
                            </div>
                         </div>
-                        <div><p>Cast</p>
+                        <div><p><b><i>Cast</i></b></p>
                         {/* Cast select radio input */}
                         <div className={`${style.cast} ${style.common}`}>
 
@@ -89,7 +89,7 @@ function Filter(){
                             <label for="ST" onClick={(e)=>handleCast(e)}>ST</label>
                         </div>
                         </div>
-                        <div><p>Income</p>
+                        <div><p><b><i>income</i></b></p>
                         {/* Income select radio input */}
                         <div className={`${style.income} ${style.common}`}>
                             <input type={"radio"} name={"income"}  id="10K-1L"  />
