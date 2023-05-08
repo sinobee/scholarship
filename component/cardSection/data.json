@@ -85,7 +85,7 @@
             "OBC",
             "EWS"
         ],
-        "state": "up",
+        "state": "uttar-pradesh",
         "income": "800000",
         "physical_disability": "yes",
         "gender": [
@@ -107,18 +107,12 @@
     {
         "name": "Animi ad pariatur reprehenderit eaque impedit adipisci asperiores necessitatibus atque ",
         "age": "15-30",
-        "cast": [
-            "Gen",
-            "OBC",
-            "EWS",
-            "ST"
-        ],
+        "cast": ["Gen"],
         "state": "delhi",
         "income": "600000",
         "physical_disability": "yes",
         "gender": [
-            "male",
-            "female"
+           "other"
         ],
         "last_date": "2024-06-12",
         "desc": "",
@@ -139,7 +133,7 @@
             "OBC",
             "EWS"
         ],
-        "state": "up",
+        "state": "uttar-pradesh",
         "income": "800000",
         "physical_disability": "yes",
         "gender": [
@@ -166,7 +160,7 @@
             "OBC",
             "EWS"
         ],
-        "state": "up",
+        "state": "uttar-pradesh",
         "income": "800000",
         "physical_disability": "yes",
         "gender": [
